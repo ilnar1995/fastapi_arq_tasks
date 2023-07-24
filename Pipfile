@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = {extras = ["all"], version = "*"}
+alembic = "*"
+uvicorn = "*"
+passlib = "*"
+asyncpg = "*"
+pytest = "*"
+pytest-asyncio = "*"
+sqlalchemy = "*"
+fastapi-users = {extras = ["sqlalchemy"], version = "*"}
+rq = "*"
+aiohttp = "*"
+arq = "==0.25.0"
+loguru = "==0.6.0"
+arrow = "==1.2.3"
+async-cache = "==1.1.1"
+pyhumps = "*"
+aiometer = "==0.3.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

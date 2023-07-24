@@ -1,0 +1,5 @@
+celery_tutorial.txt
+.idea/
+postgres-data
+__pycache__
+venv

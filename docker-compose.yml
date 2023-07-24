@@ -1,0 +1,51 @@
+version: "3.8"
+
+services:
+  db_project:
+#    image: postgres:11-alpine
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile_db
+    container_name: ${DB_HOST}
+    ports:
+      - 5435:5432
+    volumes:
+      - ./docker/create-multiple-postgresql-databases.sh:/docker-entrypoint-initdb.d/create-multiple-postgresql-databases.sh
+    environment:
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_USER: postgres
+      POSTGRES_MULTIPLE_DATABASES: ${DB_NAME_TEST}
+  web:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    container_name: fastapi
+    command:  bash -c "uvicorn src.main:app --proxy-headers --host 0.0.0.0 --port 8000 --reload"
+    entrypoint: /usr/fast_api_project/docker/entrypoint.sh
+    volumes:
+      - .:/usr/fast_api_project/
+    env_file:
+      - .env
+    ports:
+      - 8000:8000
+    depends_on:
+      - db_project
+  redis:
+    container_name: ${REDIS_HOST}
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+  worker:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    command: arq src.worker.WorkerSettings #rq worker high medium low
+    entrypoint: /usr/fast_api_project/docker/entrypoint-worker.sh
+    env_file:
+      - .env
+    depends_on:
+      - redis
+
+
+volumes:
+  postgres-data:

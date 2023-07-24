@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c7959a9-5afd-49d6-9013-eddda9a8b15c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4ae7ddd-ac5f-4dfa-84cd-7c9aa4b7a352.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4ae7ddd-ac5f-4dfa-84cd-7c9aa4b7a352.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authorization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/permission.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/redis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/routers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/routers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/worker.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/alembic.ini" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/migrations/env.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2P0OKWrpCfgDAjMsnClQrgVvf2s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ilnar/projects/fastapi_sqlalchemy_app_foods&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;,
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/../django_project/templates/accounts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker/Dockerfile">
+    <configuration name="django_movie" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django_movie" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker/Dockerfile" type="docker-deploy" factoryName="dockerfile">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="docker/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c7959a9-5afd-49d6-9013-eddda9a8b15c" name="Changes" comment="" />
+      <created>1682590468458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682590468458</updated>
+      <workItem from="1682590469986" duration="39933000" />
+      <workItem from="1687256001451" duration="204000" />
+      <workItem from="1687256235053" duration="253446000" />
+      <workItem from="1688245498508" duration="20825000" />
+      <workItem from="1688463015438" duration="108450000" />
+      <workItem from="1688681528602" duration="322000" />
+      <workItem from="1688723849722" duration="6219000" />
+      <workItem from="1689063747412" duration="1997000" />
+      <workItem from="1689231003980" duration="712000" />
+      <workItem from="1689235993019" duration="25000" />
+      <workItem from="1689236031195" duration="38067000" />
+      <workItem from="1689341599180" duration="78683000" />
+      <workItem from="1689588052305" duration="475000" />
+      <workItem from="1689597032152" duration="18665000" />
+      <workItem from="1689665337026" duration="31188000" />
+      <workItem from="1689706198691" duration="13866000" />
+      <workItem from="1689750274506" duration="3753000" />
+      <workItem from="1689754472210" duration="157099000" />
+      <workItem from="1690094137921" duration="1265000" />
+      <workItem from="1690097725769" duration="290000" />
+      <workItem from="1690098127201" duration="41863000" />
+      <workItem from="1690178881215" duration="225000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
